@@ -139,7 +139,7 @@ module SyslogRuby
             end
 
       proto_msg = if @local
-                    "<#{facility + level}> "\
+                    "<#{facility + level}>"\
                       "#{ident}" \
                       ": " \
                       "#{msg}\n"
